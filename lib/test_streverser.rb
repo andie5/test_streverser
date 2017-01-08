@@ -1,5 +1,5 @@
 require "test_streverser/version"
-require "test_streverser/word"
+require "word"
 
 module TestStreverser
   def self.hello
