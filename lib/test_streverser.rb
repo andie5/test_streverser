@@ -1,5 +1,5 @@
 require_relative "test_streverser/version"
-require_relative "test_streverser/word"
+# require_relative "test_streverser/word"
 
 module TestStreverser
   def self.hello
@@ -11,6 +11,9 @@ module TestStreverser
       input.reverse
     end
   end
-  
+
+  def self.fun
+    puts "fun"
+  end 
 end
 
